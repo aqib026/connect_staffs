@@ -1,0 +1,9 @@
+node_modules/
+package-loc.json
+storage/*.key
+.env
+public/js/
+public/css/
+/vendor
+public/mix-manifest.json
+
