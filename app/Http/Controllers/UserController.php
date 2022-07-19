@@ -187,7 +187,7 @@ class UserController extends Controller
         $request->validate([
             'name' => 'required',
             'phone_number' => 'required',
-            'email' => ['required', 'string', 'email'],
+            'email' => ['required', 'string', 'email','unique:users'],
         ]);
         $address  = isset($request->address) ? $request->address : '';
         $password = '';
