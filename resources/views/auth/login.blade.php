@@ -1,6 +1,6 @@
 @extends('layouts.preapp')
 @section('title')
-   {{ __('page-titles.login') }} | {{ config('app.name', 'Kaoskastaffing') }}
+   {{ __('page-titles.login') }} | {{ 'Connects Staff' }}
 @endsection
 @section('content')
 <div>

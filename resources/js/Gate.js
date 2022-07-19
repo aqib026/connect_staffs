@@ -19,6 +19,12 @@ export default class Gate {
     isStudent() {
         return (this.user.type === 'student');
     }
+    userName() {
+        let name = '';
+        if (this.user.name != null) name += this.user.name;
+        if (this.user.last_name != null) name += ' ' + this.user.last_name;
+        return name;
+    }
+
 
 }
-

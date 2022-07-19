@@ -629,7 +629,7 @@ export default {
             <i class="mdi mdi-chevron-down d-none d-xl-inline-block"></i>
           </template>
           <!-- item-->
-          <b-dropdown-item href="/contacts/profile">
+          <b-dropdown-item href="/profile">
             <i class="bx bx-user font-size-16 align-middle me-1"></i>
             {{ $t("navbar.dropdown.henry.list.profile") }}
           </b-dropdown-item>

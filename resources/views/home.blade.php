@@ -13,7 +13,7 @@
     }
 @endphp
 @section('title')
-   {{ $title }} | {{ config('app.name', 'Kaoskastaffing') }}
+   {{ $title }} | {{  'Connects Staff' }}
 @endsection
 @section('content')
 <dynamic-component component="{{ $component }}" id="{{ $id ?? "" }}" />

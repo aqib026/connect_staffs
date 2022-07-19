@@ -10,7 +10,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="icon" href="{{ url('favicon.ico') }}">
     <title>
-        @yield('title', config('app.name', 'Kaoskastaffing'))
+        @yield('title', config('app.name', 'Connects Staff'))
     </title>
     <meta content="Kaoskastaffing is a fully featured premium Vuejs admin dashboard template built on top of awesome Bootstrap 5" name="description" />
     <script src="{{ asset('js/app.js') }}" defer></script>

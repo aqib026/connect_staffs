@@ -139,15 +139,16 @@ export default {
 
         <b-dropdown right variant="black" toggle-class="header-item" menu-class="dropdown-menu-end">
           <template v-slot:button-content>
-            <span class="rounded-circle header-profile-user">K.S</span>
+            <span class="rounded-circle header-profile-user"> {{$gate.userName()}}</span>
             <!-- <span class="d-none d-xl-inline-block ms-1">{{ $t('navbar.dropdown.henry.text')}}</span> -->
             <i class="mdi mdi-chevron-down d-none d-xl-inline-block"></i>
           </template>
           <!-- item-->
       
-          <b-dropdown-item href="/contacts/profile">
+          <b-dropdown-item >
+            <router-link to="/profile">
             <i class="bx bx-user font-size-16 align-middle me-1"></i>
-            {{ $t('navbar.dropdown.henry.list.profile') }}
+            {{ $t('navbar.dropdown.henry.list.profile') }}</router-link>
           </b-dropdown-item>
         
           <b-dropdown-divider></b-dropdown-divider>

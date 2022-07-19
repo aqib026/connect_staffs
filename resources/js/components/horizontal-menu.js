@@ -1,10 +1,8 @@
-export const menuItems = [
-    {
+export const menuItems = [{
         id: 1,
         label: 'menuitems.dashboards.text',
         icon: 'bx-home-circle',
-        subItems: [
-            {
+        subItems: [{
                 id: 2,
                 label: 'menuitems.dashboards.list.default',
                 link: '/',
@@ -35,8 +33,7 @@ export const menuItems = [
         label: 'menuitems.uielements.text',
         icon: 'bx-tone',
         isUiElement: true,
-        subItems: [
-            {
+        subItems: [{
                 id: 7,
                 label: 'menuitems.uielements.list.alerts',
                 link: '/ui/alerts',
@@ -156,8 +153,7 @@ export const menuItems = [
         id: 25,
         label: 'menuitems.apps.text',
         icon: 'bx-customize',
-        subItems: [
-            {
+        subItems: [{
                 id: 26,
                 label: 'menuitems.calendar.text',
                 link: '/calendar',
@@ -178,8 +174,7 @@ export const menuItems = [
             {
                 id: 29,
                 label: 'menuitems.email.text',
-                subItems: [
-                    {
+                subItems: [{
                         id: 30,
                         label: 'menuitems.email.list.inbox',
                         link: '/email/inbox',
@@ -195,8 +190,7 @@ export const menuItems = [
                         id: 32,
                         label: "menuitems.email.list.template.text",
                         parentId: 29,
-                        subItems: [
-                            {
+                        subItems: [{
                                 id: 33,
                                 label: 'menuitems.email.list.template.list.basic',
                                 link: '/email/templates/basic',
@@ -221,8 +215,7 @@ export const menuItems = [
             {
                 id: 36,
                 label: 'menuitems.ecommerce.text',
-                subItems: [
-                    {
+                subItems: [{
                         id: 37,
                         label: 'menuitems.ecommerce.list.products',
                         link: '/ecommerce/products',
@@ -250,7 +243,7 @@ export const menuItems = [
                         id: 41,
                         label: 'menuitems.ecommerce.list.cart',
                         link: '/ecommerce/cart',
-                        parentId:36
+                        parentId: 36
                     },
                     {
                         id: 42,
@@ -276,8 +269,7 @@ export const menuItems = [
                 id: 45,
                 label: 'menuitems.crypto.text',
                 icon: 'bx-bitcoin',
-                subItems: [
-                    {
+                subItems: [{
                         id: 46,
                         label: 'menuitems.crypto.list.wallet',
                         link: '/crypto/wallet',
@@ -324,8 +316,7 @@ export const menuItems = [
             {
                 id: 53,
                 label: 'menuitems.projects.text',
-                subItems: [
-                    {
+                subItems: [{
                         id: 54,
                         label: 'menuitems.projects.list.grid',
                         link: '/projects/grid',
@@ -354,8 +345,7 @@ export const menuItems = [
             {
                 id: 58,
                 label: 'menuitems.tasks.text',
-                subItems: [
-                    {
+                subItems: [{
                         id: 59,
                         label: 'menuitems.tasks.list.tasklist',
                         link: '/tasks/list',
@@ -379,8 +369,7 @@ export const menuItems = [
                 id: 62,
                 label: 'menuitems.contacts.text',
                 icon: 'bxs-user-detail',
-                subItems: [
-                    {
+                subItems: [{
                         id: 63,
                         label: 'menuitems.contacts.list.usergrid',
                         link: '/contacts/grid',
@@ -395,17 +384,16 @@ export const menuItems = [
                     {
                         id: 65,
                         label: 'menuitems.contacts.list.profile',
-                        link: '/contacts/profile',
+                        link: '/profile',
                         parentId: 61
                     }
                 ]
             },
             {
-                id: 66, 
+                id: 66,
                 label: "menuitems.blog.text",
                 icon: "bx-detail",
-                subItems: [
-                    {
+                subItems: [{
                         id: 67,
                         label: 'menuitems.blog.list.bloglist',
                         link: '/blog/list',
@@ -431,12 +419,10 @@ export const menuItems = [
         id: 70,
         icon: 'bx-collection',
         label: 'menuitems.components.text',
-        subItems: [
-            {
+        subItems: [{
                 id: 71,
                 label: 'menuitems.forms.text',
-                subItems: [
-                    {
+                subItems: [{
                         id: 72,
                         label: 'menuitems.forms.list.elements',
                         link: '/form/elements',
@@ -495,8 +481,7 @@ export const menuItems = [
             {
                 id: 81,
                 label: 'menuitems.tables.text',
-                subItems: [
-                    {
+                subItems: [{
                         id: 82,
                         label: 'menuitems.tables.list.basic',
                         link: '/tables/basic',
@@ -513,8 +498,7 @@ export const menuItems = [
             {
                 id: 84,
                 label: 'menuitems.charts.text',
-                subItems: [
-                    {
+                subItems: [{
                         id: 85,
                         label: 'menuitems.charts.list.apex',
                         link: '/charts/apex',
@@ -537,8 +521,7 @@ export const menuItems = [
             {
                 id: 89,
                 label: 'menuitems.icons.text',
-                subItems: [
-                    {
+                subItems: [{
                         id: 90,
                         label: 'menuitems.icons.list.boxicons',
                         link: '/icons/boxicons',
@@ -567,8 +550,7 @@ export const menuItems = [
             {
                 id: 94,
                 label: 'menuitems.maps.text',
-                subItems: [
-                    {
+                subItems: [{
                         id: 95,
                         label: 'menuitems.maps.list.googlemap',
                         link: '/maps/google',
@@ -588,12 +570,10 @@ export const menuItems = [
         id: 97,
         label: 'navbar.dropdown.megamenu.extrapages.title',
         icon: 'bx-file',
-        subItems: [
-            {
+        subItems: [{
                 id: 98,
                 label: 'menuitems.invoices.text',
-                subItems: [
-                    {
+                subItems: [{
                         id: 99,
                         label: 'menuitems.invoices.list.invoicelist',
                         link: '/invoices/list',
@@ -610,8 +590,7 @@ export const menuItems = [
             {
                 id: 101,
                 label: 'menuitems.authentication.text',
-                subItems: [
-                    {
+                subItems: [{
                         id: 102,
                         label: "menuitems.authentication.list.login",
                         link: "/auth/login-1",
@@ -654,7 +633,7 @@ export const menuItems = [
                         parentId: 101
                     },
                     {
-                        id:109,
+                        id: 109,
                         label: "menuitems.authentication.list.lockscreen-2",
                         link: "/auth/lock-screen-2",
                         parentId: 101
@@ -701,8 +680,7 @@ export const menuItems = [
                 id: 116,
                 label: 'menuitems.utility.text',
                 icon: 'bx-file',
-                subItems: [
-                    {
+                subItems: [{
                         id: 117,
                         label: 'menuitems.utility.list.starter',
                         link: '/pages/starter',
@@ -755,4 +733,3 @@ export const menuItems = [
         ]
     }
 ];
-

@@ -2,6 +2,7 @@ export default [
     { path: '/', name: 'dashboard', component: require('./views/JobScheduler.vue').default },
     { path: '/user-timesheet', name: 'userTimeSheet', component: require('./views/UserTimeSheet.vue').default },
     { path: '/users', name: 'users', component: require('./views/Users.vue').default },
+    { path: '/profile/:id', name: 'profile', component: require('./views/contacts/contacts-profile.vue').default },
     { path: '/administrators', name: 'administrators', component: require('./views/Administrators.vue').default },
     { path: '/customers', name: 'customers', component: require('./views/Customers.vue').default },
     { path: '/jobs', name: 'jobs', component: require('./views/Jobs.vue').default },

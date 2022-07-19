@@ -39,7 +39,7 @@ export default {
             <div class="col-7">
               <div class="text-primary p-4">
                 <h5 class="text-primary">Welcome Back !</h5>
-                <p>Sign in to continue to Kaoskastaffing.</p>
+                <p>Sign in to continue to Connects Staff.</p>
               </div>
             </div>
             <div class="col-5 align-self-end">
@@ -110,7 +110,7 @@ export default {
               >
             </div>
             <div class="mt-4 text-center">
-              <a href="/reset/password" class="text-muted">
+              <a href="/password/reset" class="text-muted">
                 <i class="mdi mdi-lock mr-1"></i> Forgot your password?
               </a>
             </div>

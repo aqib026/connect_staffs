@@ -97,6 +97,7 @@ Route::get('/payments/{id}', 'PaymentController@index');
 Route::post('/payments/{id}', 'PaymentController@create');
 
 Route::post('/register', [App\Http\Controllers\AuthenticationController::class, 'store']);
+Route::post('/password/reset', [App\Http\Controllers\ForgotPasswordController::class]);
 Route::get('/user', [App\Http\Controllers\AuthenticationController::class, 'user']);
 
 
@@ -118,12 +119,12 @@ Route::group([
     Route::post('reset', [App\Http\Controllers\ForgotPasswordController::class, 'reset']);
 });
 
-Route::get('/redirect', function () {
-    $query = http_build_query([
-        'client_id' => 'client-id',
-        'redirect_uri' => 'http://example.com/callback',
-        'response_type' => 'code',
-        'scope' => 'place-orders check-status',
-    ]);
-    return redirect('http://your-app.com/oauth/authorize?' . $query);
-});
+// Route::get('/redirect', function () {
+//     $query = http_build_query([
+//         'client_id' => 'client-id',
+//         'redirect_uri' => 'http://example.com/callback',
+//         'response_type' => 'code',
+//         'scope' => 'place-orders check-status',
+//     ]);
+//     return redirect('http://your-app.com/oauth/authorize?' . $query);
+// });

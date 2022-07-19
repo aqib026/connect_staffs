@@ -82,7 +82,7 @@ export default {
                             ></b-form-input>
                             </b-form-group>
                         <div class="form-group row mb-0">
-                            <div class="col-12 text-end">
+                            <div class="col-12 mt-3 text-end">
                                 <button class="btn btn-primary w-md" type="submit">Reset</button>
                             </div>
                         </div>

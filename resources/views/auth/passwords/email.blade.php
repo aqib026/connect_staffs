@@ -1,14 +1,14 @@
-@extends('layouts.app')
+@extends('layouts.preapp')
 @section('title')
-   {{ __('page-titles.reset') }} | {{ config('app.name', 'Kaoskastaffing') }}
+   {{ __('page-titles.reset') }} | {{ 'Connects Staff' }}
 @endsection
 @section('content')
 <div>
-    <div class="home-btn d-none d-sm-block">
+    {{-- <div class="home-btn d-none d-sm-block">
         <a href="{{ route("home") }}" class="text-dark">
         <i class="fas fa-home h2"></i>
         </a>
-    </div>
+    </div> --}}
     <div class="account-pages my-5 pt-5">
         <div class="container">
         <forgot-password
